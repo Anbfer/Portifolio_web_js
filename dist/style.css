@@ -1,0 +1,207 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+	background-blend-mode: multiply, multiply;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "Poppins", sans-serif;
+	color: whitesmoke;
+	transition: all 500ms ease-in-out;
+}
+.container {
+	background: #203a43;
+	margin: 25px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 6px #020203;
+	padding: 2em;
+	color: whitesmoke;
+	text-shadow: 2px 2px 4px #020203;
+	transition: 1s ease-in-out;
+}
+.perfil {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.linksPessoais {
+	margin:auto;
+	margin-top: 2em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	background: rgb(40,82,135, 45%);
+	box-shadow: 0px 0px 4px #020203;
+	font-size: 1em;
+	transition: all 500ms ease-in-out;
+}
+.linksPessoais a {
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	color: whitesmoke;
+	padding: 0.2em;
+	transition: all 500ms ease-in-out;
+}
+.linksPessoais a:hover {
+	background: rgba(80, 80, 80, 80%);
+	transition: all 500ms ease-in-out;
+}
+.fotoPerfil {
+	max-height: 150px;
+	max-width: 160px;
+	border-radius: 90px;
+	border:solid 4px #13375e;
+	box-shadow: 1px 1px 6px #020203;
+	background-color: #f1f0f0;
+	transition: all 500ms ease-in-out;
+}
+.tituloPortfolio {
+	margin-left: 10px;
+	color: whitesmoke;
+}
+.tituloPortfolio h1 {
+	font-weight: 700;
+	font-size: 3em;
+}
+.tituloPortfolio h2 {
+	font-weight: 150;
+	font-size: 1em;
+}
+.temas {
+	width: 80%;
+}
+.temas button {
+	align-self: flex-end;
+	background-color: #6ca2da;
+	border: 2px solid #6ca2da;
+	border-radius: 4px;
+	width: 60px;
+	color: whitesmoke;
+	transition: all 500ms ease-in-out;
+	height: 3em;
+	cursor: pointer;
+	font-weight: 610;
+	margin-left: start;
+	margin-bottom: 1em;
+}
+.temas button:hover {
+	border-color: lightblue;
+	color: whitesmoke;
+	background-color: #6ca2da;
+	box-shadow: 1px 4px 4px black;
+	transition: all 015ms ease-in;
+}
+.temas button:active {
+	background: lightseagreen;
+	border-color: lightseagreen;
+	color: whitesmoke;
+	transition: all 015ms ease-out;
+}
+.projetos {
+	margin:auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	background: #2c3e50;
+	border-radius: 8px;
+	box-shadow: 0 0 4px #020203;
+	transition: 1s ease-in-out;
+}
+.projetos ul {
+	font-weight: 750;
+	font-size: 25px;
+	align-self: left;
+}
+
+.projetos li {
+	padding-top: 15px;
+	padding-bottom: 4px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	list-style-type: none;
+	font-weight: 350;
+	font-size: 16px;
+	height: 650px;
+}
+
+}
+.light .temas {
+	width: 80%;
+}
+
+.light {
+	background-image: radial-gradient(
+		circle farthest-corner at 10% 20%,
+		rgba(97, 186, 255, 1) 0%,
+		rgba(166, 239, 253, 1) 90.1%
+	);
+	transition: all 1s ease-in-out;
+}
+.light .linksPessoais {
+	background-color:rgba(54, 89, 199, 50%);
+}
+.light .container {
+	background: linear-gradient(
+		180deg,
+		rgba(108, 162, 218, 0.8) 5%,
+		rgba(80, 160, 255, 1) 15%,
+		rgba(54, 89, 199, 1) 40%
+	);
+	transition: all 1s ease-in-out;
+}
+.light .projetos {
+	background-color: rgba(0, 164, 255, 30%);
+}
+.light .temas button {
+	align-self: flex-end;
+	background-color: #203a43;
+	border: 2px solid #203a43;
+	border-radius: 4px;
+	height: 3em;
+	color: whitesmoke;
+	cursor: pointer;
+	transition: all 500ms ease-in-out;
+	font-weight: 700;
+}
+.light .temas button:hover {
+	background-color: #2c5364;
+	border-color: #203a43;
+	color: whitesmoke;
+	transition: all 500ms ease-in-out;
+}
+.light .temas button:active {
+	background: lightseagreen;
+	border-color: lightseagreen;
+	color: whitesmoke;
+	transition: all 015ms ease-in;
+}
+.light .fotoPerfil {
+	border:solid 4px #0085fe;
+}
+@media screen and (max-width: 600px) {
+	.linksPessoais {
+		font-size: 2vw;
+	}
+	.fotoPerfil {
+  	width: 100%;
+  	height: auto-flow;
+		transition: all 600ms ease-in-out;
+	}
+	.perfil {
+		font-size: 2vw;
+		transition: all 600ms ease-in-out;
+	}
+	.projetos ul {
+		font-size: 4vw;
+		transition: all 600ms ease-in-out;
+	}
+	.projetos li {
+		font-size: 2.8vw;
+		transition: all 600ms ease-in-out;
+	}
+}
