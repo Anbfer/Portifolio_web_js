@@ -1,5 +1,11 @@
 # Portfólio - Certificard - ImersãoDev
 
-Feito no CodePen.io. Original URL: [https://codepen.io/angelo-ferreira/pen/OJgYgGK](https://codepen.io/angelo-ferreira/pen/OJgYgGK).
+## Conteúdo desenvolvido durante as diversas Imersões realizadas pela Alura.
+
+###Feito Originalmente no CodePen.io. Disponível para consulta do código fonte neste repositório
+
+Este repositório futuramente irá agregar todos os meus projetos de estudo, em diversas plataformas.
+
+Original URL: [https://codepen.io/angelo-ferreira/pen/OJgYgGK](https://codepen.io/angelo-ferreira/pen/OJgYgGK).
 
 
