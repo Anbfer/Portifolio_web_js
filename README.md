@@ -11,5 +11,8 @@ _Este repositório agrega as diversas atividades desenvolvidas nas imersões e p
 
 # DIO - DIgital Inovation One
 > Neste repositório você também terá acesso aos projetos e atvididades desenvolvidas no _Spread Bootcamp_ que ocorreu de Maio - Julho de 2022.
+
+
+
+#### Este repositório tem o propósito de se tornar uma base pra consulta dos fundamentos aprendidos e atestar a evolução técnica e prática.
 ---
-#### Este repositório tem o propósito de se tornar uma base pra consulta dos fundamentos aprendidos e atestar a evolução na técnica e no conhe
