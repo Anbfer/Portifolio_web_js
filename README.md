@@ -1,4 +1,4 @@
-# Portfólio
+# Portfólio Web/JavaScrip
 
 _Este repositório agrega as diversas atividades desenvolvidas nas imersões e plataformas de ensino utilizadas por mim._
 
