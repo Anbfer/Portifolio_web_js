@@ -1,0 +1,11 @@
+body {
+    min-height: auto;
+    max-height: auto;
+}
+.caixa__bemVindo {
+    display: flex;
+    flex-flow: wrap;
+}
+.gif__bemVindo {
+    align-self: center;
+}
