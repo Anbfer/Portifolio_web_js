@@ -1,6 +1,4 @@
-# Portfólio Web/JavaScrip
-
-## Alura - #ImersãoDev 2020-22
-> Conteúdo apresentado em forma de cartão/portifólio, disponível na URL abaixo e através deste repositório, esses projetos foram desenvolvidos durante as diversas Imersões realizadas pela Alura.
-
-> _[Alura Certificard](https://codepen.io/angelo-ferreira/pen/OJgYgGK)._
+# Portfólio Desenvolvimento Web
+## Programação Web - 1/2023
+### Branch exclusiva para o desenvolvimento das atividades de Programação Web
+> Conteúdo desenvolvido no segundo semestre de Análise e Desenvolvimento de Sistemas.
